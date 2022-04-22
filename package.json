@@ -8,7 +8,7 @@
     "preview": "vite preview",
     "predeploy": "yarn build",
     "deploy": "firebase deploy --only hosting",
-    "fix": "run-s fix:eslint fix:prettier"
+    "lint": "eslint 'src/**/*.{ts,tsx}' --fix"
   },
   "dependencies": {
     "react": "^18.0.0",
