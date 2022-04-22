@@ -1,0 +1,2 @@
+- その他
+  - firebase-tools@10 を使用
